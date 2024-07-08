@@ -1,0 +1,42 @@
+#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  pointer-events: auto;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.controls .vertical-tilt-controls,
+.controls .horizontal-tilt-controls {
+  margin-bottom: 10px;
+}
+
+.controls button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #0056b3;
+}
